@@ -1,9 +1,9 @@
 vagrant-django-base
 ===================
 
-A Vagrant box based on Ubuntu trusty32, configured for Django development
+A Vagrant box based on Ubuntu trusty64, configured for Django development
 according to Torchbox's adopted practices. Things preinstalled beyond the base
-trusty32 box include:
+trusty64 box include:
 
 * postgresql 9.3 (with locale fixed to create databases as UTF-8)
 * virtualenv and virtualenvwrapper
@@ -14,7 +14,7 @@ trusty32 box include:
 
 We use this box in conjunction with https://github.com/torchbox/vagrant-django-template
 as the initial template for our Django projects. vagrant-django-template will
-successfully build from a vanilla trusty32 base box, but using vagrant-django-base
+successfully build from a vanilla trusty64 base box, but using vagrant-django-base
 instead will skip some of the time-consuming initial setup.
 
 Build instructions
